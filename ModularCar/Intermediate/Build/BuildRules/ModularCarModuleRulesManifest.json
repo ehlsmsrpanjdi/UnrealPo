@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\UnrealPo\\UnrealPo\\ModularCar\\Source\\ModularCar\\ModularCar.Build.cs",
+		"D:\\UnrealPo\\UnrealPo\\ModularCar\\Source\\ModularCar.Target.cs",
+		"D:\\UnrealPo\\UnrealPo\\ModularCar\\Source\\ModularCarEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.2"
+}

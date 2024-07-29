@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ModularCar.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ModularCar.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ModularCarEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ModularCar">
+      <UniqueIdentifier>{A6DEEE1F-C32B-3553-AD93-D0E592DBFFBC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ModularCar\ModularCar.Build.cs">
+      <Filter>Source\ModularCar</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ModularCar\ModularCar.cpp">
+      <Filter>Source\ModularCar</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ModularCar\ModularCar.h">
+      <Filter>Source\ModularCar</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ModularCar\ModularCarCharacter.cpp">
+      <Filter>Source\ModularCar</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ModularCar\ModularCarCharacter.h">
+      <Filter>Source\ModularCar</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ModularCar\ModularCarGameMode.cpp">
+      <Filter>Source\ModularCar</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ModularCar\ModularCarGameMode.h">
+      <Filter>Source\ModularCar</Filter>
+    </ClInclude>
+    <Filter Include="Source\ModularCar\Module">
+      <UniqueIdentifier>{484DDFF9-6365-3896-A233-1293F1E57908}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ModularCar\Module\C_Wheel.cpp">
+      <Filter>Source\ModularCar\Module</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ModularCar\Module\C_Wheel.h">
+      <Filter>Source\ModularCar\Module</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
