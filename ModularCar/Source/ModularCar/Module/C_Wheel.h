@@ -23,4 +23,25 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UFUNCTION(BlueprintCallable)
+	void WheelSet(UPhysicsConstraintComponent* _Axis, UPhysicsConstraintComponent* _Suspension, UPrimitiveComponent* _Body, UPrimitiveComponent* _Wheel);
+
+	void AxisSet();
+	void SuspensionSet();
+
+private:
+	//UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess))
+	//class UPhysicsConstraintComponent* Car_Axis = nullptr;
+
+	//UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess))
+	//UPhysicsConstraintComponent* Car_Suspension = nullptr;
+
+	//UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess))
+	//class UStaticMeshComponent* Car_Mesh = nullptr;
+
+	//UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess))
+	//USceneComponent* DefaultSceneRoot = nullptr;
+
+	UPROPERTY()
+	bool IsInit = false;
 };

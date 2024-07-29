@@ -57,6 +57,12 @@
     <Filter Include="Source\ModularCar\Module">
       <UniqueIdentifier>{484DDFF9-6365-3896-A233-1293F1E57908}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ModularCar\Module\C_Car.cpp">
+      <Filter>Source\ModularCar\Module</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ModularCar\Module\C_Car.h">
+      <Filter>Source\ModularCar\Module</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\ModularCar\Module\C_Wheel.cpp">
       <Filter>Source\ModularCar\Module</Filter>
     </ClCompile>

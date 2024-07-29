@@ -282,6 +282,7 @@
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
 /I "D:\UnrealPo\UnrealPo\ModularCar\Intermediate\Build\Win64\UnrealEditor\Inc\ModularCar\UHT"
+/I "D:\UnrealPo\UnrealPo\ModularCar\Source\ModularCar"
 /I "D:\UnrealPo\UnrealPo\ModularCar\Source"
 /I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
 /I "..\Plugins\EnhancedInput\Source"

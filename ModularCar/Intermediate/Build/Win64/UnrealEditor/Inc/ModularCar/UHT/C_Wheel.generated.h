@@ -9,10 +9,16 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPhysicsConstraintComponent;
+class UPrimitiveComponent;
 #ifdef MODULARCAR_C_Wheel_generated_h
 #error "C_Wheel.generated.h already included, missing '#pragma once' in C_Wheel.h"
 #endif
 #define MODULARCAR_C_Wheel_generated_h
+
+#define FID_ModularCar_Source_ModularCar_Module_C_Wheel_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execWheelSet);
+
 
 #define FID_ModularCar_Source_ModularCar_Module_C_Wheel_h_12_INCLASS_NO_PURE_DECLS \
 private: \
@@ -39,6 +45,7 @@ public: \
 #define FID_ModularCar_Source_ModularCar_Module_C_Wheel_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
+	FID_ModularCar_Source_ModularCar_Module_C_Wheel_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
 	FID_ModularCar_Source_ModularCar_Module_C_Wheel_h_12_INCLASS_NO_PURE_DECLS \
 	FID_ModularCar_Source_ModularCar_Module_C_Wheel_h_12_ENHANCED_CONSTRUCTORS \
 private: \

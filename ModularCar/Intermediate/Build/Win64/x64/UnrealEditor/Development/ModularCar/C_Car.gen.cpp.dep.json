@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\unrealpo\\unrealpo\\modularcar\\intermediate\\build\\win64\\unrealeditor\\inc\\modularcar\\uht\\c_car.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealpo\\unrealpo\\modularcar\\intermediate\\build\\win64\\x64\\modularcareditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\unrealpo\\unrealpo\\modularcar\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\modularcar\\definitions.modularcar.h",
+            "d:\\unrealpo\\unrealpo\\modularcar\\source\\modularcar\\module\\c_car.h",
+            "d:\\unrealpo\\unrealpo\\modularcar\\intermediate\\build\\win64\\unrealeditor\\inc\\modularcar\\uht\\c_car.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
